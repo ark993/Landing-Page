@@ -34,8 +34,11 @@ body {
 
 .headerbottom {
     display: flex;
+    justify-content: center;
     padding-left: 100px;
     padding-right: 100px;
+    max-width: 700px;
+    align-self: center;
 }
 
 .headerbottom > * {
@@ -89,9 +92,47 @@ body {
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.q1 {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
 }
 
 
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sbox {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    height: 120px;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sbutton {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
 
 .footer {
     height: 70px;

@@ -11,19 +11,25 @@ body {
 }
 
 .header {
-    background-color: #1f2937;
+    background-color: #127780;
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: space-between;
 }
 
 .headertop {
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.headertop img {
+    height: 130px;
+    width: auto;
 }
 
 .header-links {
@@ -31,18 +37,31 @@ body {
     gap: 20px;
 }
 
+.header-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 
 .headerbottom {
     display: flex;
     justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
-    max-width: 700px;
+    max-width: 900px;
     align-self: center;
+    gap: 20px;
+    padding-bottom: 20px;
 }
 
 .headerbottom > * {
     flex: 1;
+}
+
+#banner {
+    height: 100%;
+    width: 100%;
+
 }
 
 .headerbottom img {
@@ -52,8 +71,32 @@ body {
 
 
 .hbottomleft {
+    flex: 1;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.herotext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+
+}
+
+.headerbutton {
+    background-color: #0c4d53;
+    color: white;
+    padding: 10px 20px;
+    align-self: flex-start;
+    border: 1px solid white;
+}
+
+.headerbutton:hover {
+    background-color: white;
+    color: black;
 }
 
 
@@ -98,7 +141,7 @@ body {
 }
 
 .q1 {
-    max-width: 700px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
 }
@@ -115,19 +158,19 @@ body {
 }
 
 .sbox {
-    background-color: #3882f6;
+    background-color: #0c4d53;
     border-radius: 5px;
     display: flex;
     color: white;
     height: 120px;
-    width: 700px;
+    width: 1000px;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
 .sbutton {
-    background-color: #3882f6;
+    background-color: #0c4d53;
     color: white;
     border: 1px solid white;
     border-radius: 5px;
@@ -136,9 +179,11 @@ body {
 
 .footer {
     height: 70px;
-    background-color: #1f2937;
+    background-color: #127780;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+

@@ -48,10 +48,10 @@ body {
 .headerbottom {
     display: flex;
     justify-content: center;
-    max-width: 900px;
+    max-width: 1200px;
     align-self: center;
     gap: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 5em;
 }
 
 .headerbottom > * {
@@ -74,7 +74,6 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     flex-wrap: wrap;
     font-size: 18px;
     color: #e5e7eb;
@@ -83,6 +82,7 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 0.5em;
 
 }
 
@@ -90,6 +90,7 @@ body {
     background-color: #0c4d53;
     color: white;
     padding: 10px 20px;
+    margin-top: 2em;
     align-self: flex-start;
     border: 1px solid white;
 }
@@ -111,26 +112,37 @@ body {
 
 .infocontent {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    justify-content: space-between;
 }
 
+.interests {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
 .box {
-    flex: 1 1 auto;
-    max-width: 120px;
+    max-width: 200px;
+    flex: 1 1 0;
     font-size: smaller;
 }
 
 .boximage {
-    border: 3px solid blue;
-    height: 100px;
-    width: 100px;
-    border-radius: 10px;
+    border: 3px solid #0c4d53;
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
 }
 
-
-
-
+.infotext {
+    text-align: center;
+    margin-top: 1em;
+}
 
 .quote {
     background-color: #e5e7eb;
@@ -141,7 +153,7 @@ body {
 }
 
 .q1 {
-    max-width: 900px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
 }
@@ -163,7 +175,7 @@ body {
     display: flex;
     color: white;
     height: 120px;
-    width: 1000px;
+    width: 1200px;
     justify-content: center;
     align-items: center;
     gap: 20px;

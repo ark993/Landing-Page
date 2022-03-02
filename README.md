@@ -11,3 +11,5 @@ TOP Landing Page Project
 4. Added header logo, changed the colors to whole page, added an image to header container. Fixed the footer. 
 
 5. Added images, fixed some formatting, now only thing left to fix heights for each section.
+
+6. Changed content n text to business, fixed heights.
